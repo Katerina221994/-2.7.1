@@ -11,11 +11,11 @@ namespace Практическая_работа_2._7._1
         static void Main(string[] args)
         {
             string fullName = "Кульчицкая Екатерина Геннадьевна";
-            int age = 29;
+            byte age = 29;
             string emaill ="rfvb.foto@mail.ru";
-            float programminPoints = 13;
+            float programminPoints = 13f;
             float mathPoint = 24f;
-            float physicsPoints = 16;
+            float physicsPoints = 16f;
 
             Console.WriteLine("ФИО: {0} \nВозраст: {1} \nEmail: {2} \nБаллы по программированию: {3} \nБаллы по матиматике: {4} \nБаллы по физике: {5}" ,
                 fullName,
